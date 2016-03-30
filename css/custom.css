@@ -28,6 +28,36 @@ li {
     background-color: #fbfbfb;
 }
 
+.title {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+}
+
+
+.title > div {
+        flex: 0 0 100%;
+}
+
+@media (min-width: 550px) {
+    .title > div.title-logo {
+        flex: 0 0 12rem;
+    }
+    
+    .title > div {
+        flex: 0 0 100%;
+    }
+}
+
+@media (min-width: 1140px) {
+    .title > div.title-logo {
+        margin-right: 4rem;
+    }
+    .title > div {
+        flex: 1;
+    }
+}
+
 .solution p {
     font-size: 2.4rem;
 }
