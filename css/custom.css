@@ -51,6 +51,10 @@ li {
         flex: 0 0 100%;
 }
 
+.title > img {
+    width: 100%;
+}
+
 @media (min-width: 550px) {
     .title > div.title-logo {
         flex: 0 0 12rem;
