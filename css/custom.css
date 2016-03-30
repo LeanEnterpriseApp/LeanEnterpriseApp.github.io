@@ -110,7 +110,8 @@ li {
 }
 
 .logo img {
-    height: 10rem;
+    height: calc(276px / 3);
+    width: calc(688px / 3);
     vertical-align: middle;
 }
 
