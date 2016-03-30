@@ -1,6 +1,12 @@
 html {
-    padding-top: 6rem;
+    padding-top: 2rem;
     padding-bottom: 10rem; 
+}
+
+@media (min-width: 550px) {
+    html {
+        padding-top: 6rem;
+    }
 }
 
 h1 {
