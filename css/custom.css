@@ -1,0 +1,32 @@
+h1 {
+    padding-top: 7rem;
+}
+
+h2 {
+    font-size: 3.6rem;
+}
+
+.row {
+    padding-top: 2rem;
+}
+
+.solution {
+    padding: 5rem;
+    margin-top: 5rem;
+    margin-bottom: 15rem; 
+    border: solid 1px #ddd;
+    border-radius: 1rem;
+    background-color: #fafafa;
+}
+
+.solution p {
+    font-size: 2.4rem;
+}
+
+.solution ul {
+    margin-bottom: 0px;
+}
+
+.solution ul {
+    font-size: 1.6rem;
+}
