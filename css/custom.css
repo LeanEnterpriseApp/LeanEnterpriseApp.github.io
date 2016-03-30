@@ -5,6 +5,12 @@ html {
 
 @media (min-width: 550px) {
     html {
+        padding-top: 4rem;
+    }
+}
+
+@media (min-width: 1140px) {
+    html {
         padding-top: 6rem;
     }
 }
