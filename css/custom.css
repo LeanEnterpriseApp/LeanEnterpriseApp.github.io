@@ -35,6 +35,10 @@ h2 {
     font-size: 1.6rem;
 }
 
+.logo {
+    padding-top: 10rem;
+}
+
 .logo ul {
     list-style: none;
     padding-top: 2rem;
