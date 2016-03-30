@@ -58,3 +58,17 @@ h2 {
     height: 10rem;
     vertical-align: middle;
 }
+
+.plus {
+    padding-left: 3rem;
+}
+
+.plus a {
+    color: #ddd;
+    background-color: transparent;
+}
+
+.plus a:hover {
+    color: #ccc;
+    background-color: transparent;
+}
