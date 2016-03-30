@@ -11,6 +11,10 @@ h2 {
     font-size: 3.6rem;
 }
 
+li {
+    margin-bottom: 1rem;
+}
+
 .row {
     padding-top: 2rem;
 }
@@ -18,7 +22,7 @@ h2 {
 .solution {
     padding: 5rem;
     margin-top: 5rem;
-    margin-bottom: 15rem;
+    margin-bottom: 10rem;
     border: solid 1px #eee; 
     border-radius: 1rem;
     background-color: #fbfbfb;
@@ -71,6 +75,7 @@ h2 {
 .plus a {
     color: #ddd;
     background-color: transparent;
+    padding-top: 2rem;
 }
 
 .plus a:hover {
