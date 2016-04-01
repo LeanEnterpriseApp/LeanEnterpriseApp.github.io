@@ -16,28 +16,16 @@ html {
 }
 
 h1 {
-    padding-top: 6rem;
+    padding-top: 10rem;
 }
 
 h2 {
     font-size: 3.6rem;
 }
 
-li {
-    margin-bottom: 1rem;
-}
 
 .row {
     padding-top: 2rem;
-}
-
-.solution {
-    padding: 5rem;
-    margin-top: 5rem;
-    margin-bottom: 10rem;
-    border: solid 1px #eee; 
-    border-radius: 1rem;
-    background-color: #fbfbfb;
 }
 
 .title {
@@ -46,6 +34,9 @@ li {
     align-items: center;
 }
 
+.title h1 {
+    padding-top: 6rem;
+}
 
 .title > div {
         flex: 0 0 100%;
@@ -74,8 +65,16 @@ li {
     }
 }
 
+.solution {
+    padding: 5rem;
+    margin-top: 5rem;
+    border: solid 1px #eee; 
+    border-radius: 1rem;
+    background-color: #fbfbfb;
+}
+
 .solution p {
-    font-size: 2.4rem;
+    font-size: 2rem;
 }
 
 .solution ul {
@@ -86,10 +85,6 @@ li {
     font-size: 1.6rem;
 }
 
-.logo {
-    padding-top: 10rem;
-}
-
 .logo ul {
     list-style: none;
     padding-top: 2rem;
@@ -98,6 +93,7 @@ li {
 .logo li {
     display: inline-block;
     padding-right: 1rem;
+    margin-bottom: 1rem;
 }
 
 .logo a {
