@@ -73,16 +73,26 @@ h2 {
     background-color: #fbfbfb;
 }
 
-.solution p {
-    font-size: 2rem;
-}
-
 .solution ul {
     margin-bottom: 0px;
 }
 
 .solution ul {
     font-size: 1.6rem;
+}
+
+.compare h5 {
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.compare img, p {
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+
+.compare img {
+    padding-bottom: 2rem;
 }
 
 .logo ul {
