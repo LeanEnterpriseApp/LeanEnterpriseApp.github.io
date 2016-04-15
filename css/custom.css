@@ -86,7 +86,7 @@ h2 {
     padding-top: 1rem;
 }
 
-.compare img, p {
+.compare img, .compare p {
     margin-left: 2rem;
     margin-right: 2rem;
 }
