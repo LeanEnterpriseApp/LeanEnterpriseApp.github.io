@@ -1,137 +1,130 @@
-html {
-    padding-top: 2rem;
-    padding-bottom: 10rem; 
-}
-
-@media (min-width: 550px) {
-    html {
-        padding-top: 4rem;
-    }
-}
-
-@media (min-width: 1140px) {
-    html {
-        padding-top: 6rem;
-    }
-}
-
 h1 {
-    padding-top: 10rem;
+  padding-top: 10rem;
 }
 
 h2 {
-    font-size: 3.6rem;
+  font-size: 3.6rem;
 }
 
+ul {
+  padding-left: 2rem;
+}
+
+footer {
+  margin-top: 10rem;
+  padding: 1rem;
+}
 
 .row {
-    padding-top: 2rem;
+  padding-top: 2rem;
 }
 
 .title {
-    display: flex;
-    flex-flow: row wrap;
-    align-items: center;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  margin-top: 6rem;
 }
 
 .title h1 {
-    padding-top: 6rem;
+  padding-top: 6rem;
 }
 
 .title > div {
-        flex: 0 0 100%;
+  flex: 0 0 100%;
 }
 
 .title img {
-    width: 100%;
+  width: 100%;
 }
 
 @media (min-width: 550px) {
-    .title > div.title-logo {
-        flex: 0 0 12rem;
-    }
-    
-    .title > div {
-        flex: 0 0 100%;
-    }
+  .title > div.title-logo {
+    flex: 0 0 12rem;
+  }
+
+  .title > div {
+    flex: 0 0 100%;
+  }
 }
 
 @media (min-width: 1140px) {
-    .title > div.title-logo {
-        margin-right: 4rem;
-    }
-    .title > div {
-        flex: 1;
-    }
+  .title > div.title-logo {
+    margin-right: 4rem;
+  }
+  .title > div {
+    flex: 1;
+  }
 }
 
 .solution {
-    padding: 5rem;
-    margin-top: 5rem;
-    border: solid 1px #eee; 
-    border-radius: 1rem;
-    background-color: #fbfbfb;
+  padding: 5rem;
+  margin-top: 5rem;
+  border: solid 1px #eee;
+  border-radius: 1rem;
+  background-color: #fbfbfb;
 }
 
 .solution ul {
-    margin-bottom: 0px;
+  margin-bottom: 0px;
 }
 
 .solution ul {
-    font-size: 1.6rem;
+  font-size: 1.6rem;
 }
 
 .compare h5 {
-    text-align: center;
-    padding-top: 1rem;
+  text-align: center;
+  padding-top: 1rem;
 }
 
-.compare img, .compare p {
-    margin-left: 2rem;
-    margin-right: 2rem;
+.compare img,
+.compare p {
+  margin-left: 2rem;
+  margin-right: 2rem;
 }
 
 .compare img {
-    padding-bottom: 2rem;
+  padding-bottom: 2rem;
 }
 
 .logo ul {
-    list-style: none;
-    padding-top: 2rem;
+  list-style: none;
+  padding-top: 2rem;
 }
 
 .logo li {
-    display: inline-block;
-    padding-right: 1rem;
-    margin-bottom: 1rem;
+  display: inline-block;
+  padding-right: 1rem;
+  margin-bottom: 1rem;
 }
 
 .logo a {
-    display: block;
-    background: #fbfbfb;
+  display: block;
+  background: #fbfbfb;
 }
 
 .logo a:hover {
-    background: #f5f5f5;
+  background: #f5f5f5;
 }
 
 .logo img {
-    height: 4rem;
-    padding: 3rem;
-    vertical-align: middle;
+  height: 4rem;
+  padding: 3rem;
+  vertical-align: middle;
 }
 
 .plus {
-    padding-left: 3rem;
+  padding-left: 3rem;
 }
 
 .plus a {
-    color: #ddd;
-    background-color: transparent;
-    padding-top: 2rem;
+  color: #ddd;
+  background-color: transparent;
+  padding-top: 2rem;
 }
 
 .plus a:hover {
-    color: #ccc;
-    background-color: transparent;
+  color: #ccc;
+  background-color: transparent;
 }
